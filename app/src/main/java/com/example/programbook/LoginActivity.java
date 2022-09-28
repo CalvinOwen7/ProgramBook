@@ -10,6 +10,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Toast.makeText(LoginActivity.this,"test",Toast.LENGTH_LONG).show();
+        Toast.makeText(LoginActivity.this,"123",Toast.LENGTH_LONG).show();
     }
 }
