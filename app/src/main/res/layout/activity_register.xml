@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#096BFC"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/img_vector"
+        android:layout_width="258dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vector_logo" />
+
+    <TextView
+        android:id="@+id/txt_register1"
+        android:layout_width="221dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/droid_sans_bold"
+        android:text="Here’s your first step with us?"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="397dp"
+        android:layout_height="526dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_vector"
+        app:srcCompat="@drawable/shape_register" />
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="276dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/blue_900"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/blue_900"
+        app:layout_constraintBottom_toTopOf="@+id/txt_user"
+        app:layout_constraintTop_toBottomOf="@+id/txt_register1"
+        app:layout_constraintVertical_bias="0.521"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <EditText
+        android:id="@+id/txt_user"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:backgroundTint="@color/blue_900"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/blue_900"
+        app:layout_constraintBottom_toTopOf="@+id/txt_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_register1"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/blue_900"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/blue_900"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <EditText
+        android:id="@+id/txt_pass2"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/blue_900"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/blue_900"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:width="150dp"
+        android:background="@drawable/btn_shape"
+        android:text="Register
+"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="530dp"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
